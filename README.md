@@ -11,7 +11,7 @@ This repository is the entry point to the project. The code lives in three repos
 | Repository | What it is | Stack |
 | --- | --- | --- |
 | [**Frontend**](https://github.com/Sinuhe135/La-Bodega-2.0-Frontend) | Single-page web client. Generates the user's key, encrypts and decrypts every credential in the browser. | Vue 3, TypeScript, Vite, Pinia, Web Crypto API |
-| [**API**](https://github.com/Sinuhe135/La-Bodega-2.0) | Serverless REST API: auth, categories and accounts. One Lambda function per route. | Node.js 20, TypeScript, AWS Lambda, API Gateway, MySQL, JWT |
+| [**API**](https://github.com/Sinuhe135/La-Bodega-2.0-API-Node) | Serverless REST API: auth, categories and accounts. One Lambda function per route. | Node.js 20, TypeScript, AWS Lambda, API Gateway, MySQL, JWT |
 | [**Infra**](https://github.com/Sinuhe135/La-Bodega-2.0-infra) | Infrastructure as code for the whole system: network, database, API, static hosting, TLS and domains. | Terraform, AWS (VPC, RDS, Lambda, API Gateway, S3, CloudFront, ACM) |
 
 ## How it works
